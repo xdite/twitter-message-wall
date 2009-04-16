@@ -1,0 +1,27 @@
+Tweet Message Wall
+========
+
+Demo Site
+------------------
+[Mr. IE6](http://mrie6.com)
+
+Installation & Deploy
+------------------
+
+Please register [heroku](http://heroku.com) account first, and "gem install heroku"
+(or you can choose to host on your own unix-like server, but it will require much technical knowledge.)
+
+1. git clone git://github.com/xdite/tweeter-message-wall.git
+2. cd tweeter-message-wall/ 
+3. heroku create
+4. git push heroku master
+5. heroku rake db:migrate
+
+
+
+Author
+------------------
+
+Author: xdite (xdite@handlino.com)
+
+Blog: http://blog.xdite.net

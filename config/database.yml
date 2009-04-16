@@ -1,0 +1,13 @@
+development:
+  adapter: mysql
+  database: sinatra_development
+  user: root
+  password: 123456
+
+test:
+  adapter: sqlite3
+  database: test.sqlite3
+
+production:
+  adapter: sqlite3
+  database: production.sqlite3

@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>MrIE6</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="xdite">
+	<!-- Date: 2009-04-11 -->
+</head>
+<body>
+     <% @tweets.each do |t| %>
+      <div class="field">
+         <img src="<%= t.profile_image_url%>" /><a href="http://twitter.com/<%= t.from_user%>"><%= t.from_user%></a> : <%= t.text %> <a href="http://twitter.com/<%= t.from_user%>/status/<%= t.tweet_id %>">permalink</a>
+      </div>
+     <% end %>
+     
+     <%= will_paginate(@tweets)%>
+</body>
+</html>
