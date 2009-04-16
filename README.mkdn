@@ -25,3 +25,7 @@ Author
 Author: xdite (xdite@handlino.com)
 
 Blog: http://blog.xdite.net
+
+License
+------------------
+[WTFPL](http://sam.zoy.org/wtfpl/) 
